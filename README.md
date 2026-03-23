@@ -3,6 +3,6 @@ Commands:
 
 >yacc -d calculator.y
 
->gcc lex.yy.c y.tab.c
+>gcc lex.yy.c y.tab.c -lm
 
 >./a.out
